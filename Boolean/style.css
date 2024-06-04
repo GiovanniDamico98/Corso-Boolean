@@ -1,0 +1,102 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('img_esercizio_1/background.jpg');
+    background-size: cover;
+}
+
+.main_box {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    margin: 55px 20px 60px 20px;
+    padding: 60px 20px;
+    width: 60%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > img{
+  width: 170px;
+  height: 80px;
+}
+
+.first_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #00ff00;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #00ff00;
+  width: 85%;
+  margin: 10px 16px;
+  padding: 12px 12px;
+  gap: 8px;
+}
+
+.buttons button {
+  font-size: 9px;
+}
+
+.second_box {
+  margin: 16px 48px;
+}
+
+.monopattini_info {
+  margin-top: 20px;
+}
+
+.monopattini_info label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.monopattini_info p {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.carica {
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.carica.monopattino1 {
+  width: 35%;
+  background-color: yellow;
+}
+
+.carica.monopattino2 {
+  width: 60%;
+  background-color: green;
+}
+
+.carica.monopattino3 {
+  width: 15%;
+  background-color: red;
+}
